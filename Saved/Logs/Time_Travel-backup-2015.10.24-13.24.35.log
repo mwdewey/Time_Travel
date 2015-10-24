@@ -1,0 +1,147 @@
+﻿[2015.10.24-17.23.21:528][  0]Log file open, 10/24/15 13:23:21
+[2015.10.24-17.23.21:528][  0]LogInit:Display: Running engine for game: Time_Travel
+[2015.10.24-17.23.21:528][  0]LogInit:Display: RandInit(661693484) SRandInit(661693484).
+[2015.10.24-17.23.21:528][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.24-17.23.21:528][  0]LogStats: Stats thread started at 0.071884
+[2015.10.24-17.23.21:528][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-17.23.21:528][  0]LogInit: API Version: 2672455
+[2015.10.24-17.23.21:528][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.24-17.23.21:528][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.24-17.23.21:528][  0]LogInit: Build Configuration: Development
+[2015.10.24-17.23.21:528][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.24-17.23.21:528][  0]LogInit: Command line: 
+[2015.10.24-17.23.21:528][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.24-17.23.21:528][  0]LogInit: Rocket: 1
+[2015.10.24-17.23.21:535][  0]LogInit: Using libcurl 7.41.0
+[2015.10.24-17.23.21:535][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.24-17.23.21:535][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.24-17.23.21:535][  0]LogInit:  - other features:
+[2015.10.24-17.23.21:535][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.24-17.23.21:535][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.24-17.23.21:535][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.24-17.23.21:535][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.24-17.23.21:535][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.24-17.23.21:535][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.24-17.23.21:535][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.24-17.23.21:535][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.24-17.23.21:535][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.24-17.23.21:535][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.24-17.23.21:541][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.24-17.23.21:549][  0]LogInit: Object subsystem initialized
+[2015.10.24-17.23.21:559][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-17.23.21:559][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.24-17.23.21:569][  0]LogInit: Computer: SA2502-PC03
+[2015.10.24-17.23.21:569][  0]LogInit: User: deweym
+[2015.10.24-17.23.21:569][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.24-17.23.21:569][  0]LogInit: High frequency timer resolution =3.428085 MHz
+[2015.10.24-17.23.21:569][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.24-17.23.21:569][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.24-17.23.21:569][  0]LogMemory: Process Physical Memory: 54.44 MB used, 54.44 MB peak
+[2015.10.24-17.23.21:569][  0]LogMemory: Process Virtual Memory: 57.39 MB used, 57.39 MB peak
+[2015.10.24-17.23.21:569][  0]LogMemory: Physical Memory: 4675.31 MB used, 16253.98 MB total
+[2015.10.24-17.23.21:569][  0]LogMemory: Virtual Memory: 339.23 MB used, 8388608.00 MB total
+[2015.10.24-17.23.21:601][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.24-17.23.22:341][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.10.24-17.23.22:341][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 7870MB of shared system memory, 2 output[s]
+[2015.10.24-17.23.22:345][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.10.24-17.23.22:345][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.10.24-17.23.22:345][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.24-17.23.22:350][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.24-17.23.22:350][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.24-17.23.22:357][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.24-17.23.22:371][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Intermediate/Shaders/WorkingDirectory/2668/).
+[2015.10.24-17.23.22:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Intermediate/Shaders/tmp/2FA0260C4B283D5D052DCDAD17710D0D/'.
+[2015.10.24-17.23.22:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.24-17.23.23:464][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.24-17.23.23:469][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.24-17.23.23:473][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.24-17.23.23:477][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.24-17.23.23:481][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.24-17.23.23:484][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.24-17.23.23:487][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.24-17.23.23:490][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.24-17.23.23:493][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.24-17.23.23:496][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.24-17.23.23:499][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.24-17.23.23:502][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.24-17.23.23:502][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.24-17.23.23:518][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.24-17.23.23:520][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.24-17.23.23:523][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.24-17.23.23:526][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.24-17.23.23:526][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.24-17.23.23:594][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.24-17.23.23:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.24-17.23.23:775][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.24-17.23.23:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/deweym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.24-17.23.23:950][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-17.23.23:950][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.24-17.23.23:973][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.24-17.23.23:973][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.24-17.23.24:299][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.24-17.23.24:999][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.24-17.23.25:108][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.10.24-17.23.25:250][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.23.25:255][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.23.25:264][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.23.25:272][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.23.25:389][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.25:451][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.24-17.23.25:451][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.24-17.23.25:502][  0]LogEngine: Initializing Engine...
+[2015.10.24-17.23.25:503][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.24-17.23.25:504][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.24-17.23.25:613][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-17.23.25:619][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-17.23.25:643][  0]LogInit: FAudioDevice initialized.
+[2015.10.24-17.23.25:662][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-17.23.25:665][  0]LogInit: Texture streaming: Enabled
+[2015.10.24-17.23.25:670][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.24-17.23.25:670][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-17.23.25:670][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcea5a2141a743656a50c19051b49d28|296cc090900445e985a190bb6d60081a|fb55ffd5-246e-4541-9d06-aaf685c0fe31
+[2015.10.24-17.23.25:670][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.24-17.23.25:685][  0]LogInit: Transaction tracking system initialized
+[2015.10.24-17.23.25:709][  0]BlueprintLog: New page: Editor Load
+[2015.10.24-17.23.26:833][  0]LocalizationService: Info Localization service is disabled
+[2015.10.24-17.23.27:042][  0]LogConsoleResponse:Display: 
+[2015.10.24-17.23.27:158][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.24-17.23.27:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/' took 0.01s
+[2015.10.24-17.23.27:215][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.23.27:215][  0]Cmd: MAP LOAD FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-17.23.27:216][  0]LightingResults: New page: Lighting Build
+[2015.10.24-17.23.27:218][  0]MapCheck: New page: Map Check
+[2015.10.24-17.23.27:218][  0]LightingResults: New page: Lighting Build
+[2015.10.24-17.23.27:230][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021613CE0
+[2015.10.24-17.23.27:232][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:234][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:235][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:236][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:237][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:238][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:239][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:240][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:241][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.23.27:884][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.24-17.23.27:891][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-17.23.27:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-17.23.27:944][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.8ms to complete.
+[2015.10.24-17.23.27:944][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.728
+[2015.10.24-17.23.28:046][  0]LogCollectionManager: Loaded 0 collections in 0.001526 seconds
+[2015.10.24-17.23.28:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Saved/Collections/' took 0.01s
+[2015.10.24-17.23.28:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Developers/deweym/Collections/' took 0.01s
+[2015.10.24-17.23.28:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Time_Travel/Content/Collections/' took 0.01s
+[2015.10.24-17.23.28:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1867 classes and 333 folders.
+[2015.10.24-17.23.28:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.24-17.23.28:104][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.24-17.23.28:143][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.24-17.23.28:146][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.24-17.23.28:170][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.24-17.23.28:174][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.24-17.23.28:195][  0]LogLoad: Full Startup: 7.14 seconds (BP compile: 0.10 seconds)
+[2015.10.24-17.23.28:258][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.24-17.23.28:399][  0]
