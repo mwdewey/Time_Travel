@@ -1,358 +1,487 @@
-﻿[2015.10.24-17.24.35:535][  0]Log file open, 10/24/15 13:24:35
-[2015.10.24-17.24.35:535][  0]LogInit:Display: Running engine for game: Time_Travel
-[2015.10.24-17.24.35:535][  0]LogInit:Display: RandInit(915367878) SRandInit(915367878).
-[2015.10.24-17.24.35:535][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.10.24-17.24.35:535][  0]LogStats: Stats thread started at 0.072164
-[2015.10.24-17.24.35:535][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.24-17.24.35:535][  0]LogInit: API Version: 2672455
-[2015.10.24-17.24.35:535][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.24-17.24.35:535][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.24-17.24.35:535][  0]LogInit: Build Configuration: Development
-[2015.10.24-17.24.35:535][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.24-17.24.35:535][  0]LogInit: Command line: 
-[2015.10.24-17.24.35:535][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.24-17.24.35:535][  0]LogInit: Rocket: 1
-[2015.10.24-17.24.35:542][  0]LogInit: Using libcurl 7.41.0
-[2015.10.24-17.24.35:542][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.24-17.24.35:542][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.24-17.24.35:542][  0]LogInit:  - other features:
-[2015.10.24-17.24.35:542][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.24-17.24.35:542][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.24-17.24.35:542][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.24-17.24.35:542][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.24-17.24.35:542][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.24-17.24.35:542][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.24-17.24.35:542][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.24-17.24.35:542][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.24-17.24.35:542][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.24-17.24.35:542][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.24-17.24.35:548][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.24-17.24.35:555][  0]LogInit: Object subsystem initialized
-[2015.10.24-17.24.35:556][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.24-17.24.35:556][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.24-17.24.35:565][  0]LogInit: Computer: SA2502-PC03
-[2015.10.24-17.24.35:565][  0]LogInit: User: deweym
-[2015.10.24-17.24.35:565][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.10.24-17.24.35:565][  0]LogInit: High frequency timer resolution =3.428085 MHz
-[2015.10.24-17.24.35:565][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.10.24-17.24.35:565][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.24-17.24.35:565][  0]LogMemory: Process Physical Memory: 54.31 MB used, 54.31 MB peak
-[2015.10.24-17.24.35:565][  0]LogMemory: Process Virtual Memory: 59.22 MB used, 59.22 MB peak
-[2015.10.24-17.24.35:565][  0]LogMemory: Physical Memory: 4639.48 MB used, 16253.98 MB total
-[2015.10.24-17.24.35:565][  0]LogMemory: Virtual Memory: 339.45 MB used, 8388608.00 MB total
-[2015.10.24-17.24.35:596][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.10.24-17.24.36:176][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
-[2015.10.24-17.24.36:176][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 7870MB of shared system memory, 2 output[s]
-[2015.10.24-17.24.36:179][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.10.24-17.24.36:179][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
-[2015.10.24-17.24.36:179][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.24-17.24.36:184][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.24-17.24.36:184][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.24-17.24.36:191][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.24-17.24.36:205][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/deweym/Desktop/Git/Time_Travel/Intermediate/Shaders/WorkingDirectory/6416/).
-[2015.10.24-17.24.36:205][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Intermediate/Shaders/tmp/90E753D143E7F5EF810D95A10D03C4A0/'.
-[2015.10.24-17.24.36:205][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.24-17.24.37:296][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.24-17.24.37:301][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.24-17.24.37:305][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.24-17.24.37:309][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.24-17.24.37:314][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.24-17.24.37:317][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.24-17.24.37:319][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.24-17.24.37:322][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.24-17.24.37:325][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.24-17.24.37:328][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.24-17.24.37:331][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.24-17.24.37:334][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.24-17.24.37:334][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.24-17.24.37:350][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.24-17.24.37:353][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.24-17.24.37:355][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.24-17.24.37:358][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.24-17.24.37:358][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.24-17.24.37:426][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.24-17.24.37:460][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.24-17.24.37:461][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.24-17.24.37:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.24-17.24.37:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.24-17.24.37:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.24-17.24.37:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.24-17.24.37:610][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.24-17.24.37:621][  0]LogDerivedDataCache: Using Local data cache path C:/Users/deweym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.24-17.24.37:781][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.24-17.24.37:781][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.24-17.24.37:802][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.24-17.24.37:802][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.24-17.24.38:121][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.24-17.24.38:710][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.24-17.24.38:813][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
-[2015.10.24-17.24.38:956][  0]SourceControl: Info Source control is disabled
-[2015.10.24-17.24.38:963][  0]SourceControl: Info Source control is disabled
-[2015.10.24-17.24.38:971][  0]SourceControl: Info Source control is disabled
-[2015.10.24-17.24.38:979][  0]SourceControl: Info Source control is disabled
-[2015.10.24-17.24.39:089][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:151][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.10.24-17.24.39:151][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.10.24-17.24.39:202][  0]LogEngine: Initializing Engine...
-[2015.10.24-17.24.39:204][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.24-17.24.39:204][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.10.24-17.24.39:318][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.24-17.24.39:324][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.24-17.24.39:347][  0]LogInit: FAudioDevice initialized.
-[2015.10.24-17.24.39:366][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.24-17.24.39:370][  0]LogInit: Texture streaming: Enabled
-[2015.10.24-17.24.39:375][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.24-17.24.39:375][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.24-17.24.39:375][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcea5a2141a743656a50c19051b49d28|296cc090900445e985a190bb6d60081a|fb55ffd5-246e-4541-9d06-aaf685c0fe31
-[2015.10.24-17.24.39:375][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.24-17.24.39:391][  0]LogInit: Transaction tracking system initialized
-[2015.10.24-17.24.39:415][  0]BlueprintLog: New page: Editor Load
-[2015.10.24-17.24.39:481][  0]LocalizationService: Info Localization service is disabled
-[2015.10.24-17.24.39:541][  0]LogConsoleResponse:Display: 
-[2015.10.24-17.24.39:667][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.24-17.24.39:714][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/' took 0.01s
-[2015.10.24-17.24.39:714][  0]SourceControl: Info Source control is disabled
-[2015.10.24-17.24.39:714][  0]Cmd: MAP LOAD FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.24-17.24.39:714][  0]LightingResults: New page: Lighting Build
-[2015.10.24-17.24.39:717][  0]MapCheck: New page: Map Check
-[2015.10.24-17.24.39:717][  0]LightingResults: New page: Lighting Build
-[2015.10.24-17.24.39:725][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022AA8400
-[2015.10.24-17.24.39:727][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:729][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:730][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:732][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:733][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:734][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:734][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:735][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.39:736][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.24-17.24.40:328][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2015.10.24-17.24.40:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.24-17.24.40:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.24-17.24.40:380][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.363ms to complete.
-[2015.10.24-17.24.40:380][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.666
-[2015.10.24-17.24.40:472][  0]LogCollectionManager: Loaded 0 collections in 0.001909 seconds
-[2015.10.24-17.24.40:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Saved/Collections/' took 0.01s
-[2015.10.24-17.24.40:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/Developers/deweym/Collections/' took 0.01s
-[2015.10.24-17.24.40:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/Collections/' took 0.01s
-[2015.10.24-17.24.40:508][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1867 classes and 333 folders.
-[2015.10.24-17.24.40:517][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.10.24-17.24.40:522][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.10.24-17.24.40:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.10.24-17.24.40:562][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2015.10.24-17.24.40:585][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.24-17.24.40:588][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.24-17.24.40:609][  0]LogLoad: Full Startup: 5.56 seconds (BP compile: 0.10 seconds)
-[2015.10.24-17.24.40:677][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.24-17.24.40:802][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
-[2015.10.24-17.24.40:957][  3]LogAssetRegistry: Asset discovery search completed in 2.1543 seconds
-[2015.10.24-17.24.40:957][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.24-17.24.40:957][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
-[2015.10.24-17.24.44:277][350]Cmd: QUIT_EDITOR
-[2015.10.24-17.24.44:551][350]LogExit: Preparing to exit.
-[2015.10.24-17.24.44:742][350]LogExit: Editor shut down
-[2015.10.24-17.24.44:742][350]LogExit: Transaction tracking system shut down
-[2015.10.24-17.24.44:743][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120A71A0
-[2015.10.24-17.24.44:744][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FAEF880
-[2015.10.24-17.24.44:846][350]LogExit: Object subsystem successfully closed.
-[2015.10.24-17.24.44:859][350]LogD3D11RHI: Shutdown
-[2015.10.24-17.24.44:859][350]LogD3D11RHI: CleanupD3DDevice
-[2015.10.24-17.24.44:892][350]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.10.24-17.24.44:908][350]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.10.24-17.24.44:909][350]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.10.24-17.24.45:512][350]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.10.24-17.24.45:513][350]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.10.24-17.24.45:514][350]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.10.24-17.24.45:657][350]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.10.24-17.24.45:664][350]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.10.24-17.24.45:665][350]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.10.24-17.24.45:665][350]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.10.24-17.24.45:775][350]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.10.24-17.24.45:776][350]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.10.24-17.24.45:776][350]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.10.24-17.24.45:876][350]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.10.24-17.24.45:876][350]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.10.24-17.24.45:876][350]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.10.24-17.24.45:881][350]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.10.24-17.24.45:882][350]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.10.24-17.24.45:882][350]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.10.24-17.24.45:882][350]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.10.24-17.24.45:882][350]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.10.24-17.24.45:882][350]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.10.24-17.24.45:886][350]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.10.24-17.24.45:887][350]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.10.24-17.24.46:111][350]LogDerivedDataCache: Shutdown
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.10.24-17.24.46:111][350]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.10.24-17.24.46:112][350]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.10.24-17.24.48:112][350]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.24-17.24.48:113][350]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.24-17.24.48:114][350]LogExit: Exiting.
-[2015.10.24-17.24.48:138][350]Log file closed, 10/24/15 13:24:48
+﻿[2015.10.24-17.36.05:224][  0]Log file open, 10/24/15 13:36:05
+[2015.10.24-17.36.05:224][  0]LogInit:Display: Running engine for game: Time_Travel
+[2015.10.24-17.36.05:224][  0]LogInit:Display: RandInit(-1015288839) SRandInit(-1015288839).
+[2015.10.24-17.36.05:224][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.24-17.36.05:224][  0]LogStats: Stats thread started at 0.069528
+[2015.10.24-17.36.05:224][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-17.36.05:224][  0]LogInit: API Version: 2672455
+[2015.10.24-17.36.05:224][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.24-17.36.05:224][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.24-17.36.05:224][  0]LogInit: Build Configuration: Development
+[2015.10.24-17.36.05:224][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.24-17.36.05:224][  0]LogInit: Command line: 
+[2015.10.24-17.36.05:224][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.24-17.36.05:224][  0]LogInit: Rocket: 1
+[2015.10.24-17.36.05:232][  0]LogInit: Using libcurl 7.41.0
+[2015.10.24-17.36.05:232][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.24-17.36.05:232][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.24-17.36.05:232][  0]LogInit:  - other features:
+[2015.10.24-17.36.05:232][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.24-17.36.05:232][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.24-17.36.05:232][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.24-17.36.05:232][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.24-17.36.05:232][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.24-17.36.05:232][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.24-17.36.05:232][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.24-17.36.05:232][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.24-17.36.05:232][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.24-17.36.05:232][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.24-17.36.05:240][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.24-17.36.05:248][  0]LogInit: Object subsystem initialized
+[2015.10.24-17.36.05:250][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-17.36.05:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.24-17.36.05:259][  0]LogInit: Computer: SA2502-PC03
+[2015.10.24-17.36.05:259][  0]LogInit: User: deweym
+[2015.10.24-17.36.05:259][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.24-17.36.05:259][  0]LogInit: High frequency timer resolution =3.428085 MHz
+[2015.10.24-17.36.05:259][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.24-17.36.05:259][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.24-17.36.05:259][  0]LogMemory: Process Physical Memory: 54.49 MB used, 54.49 MB peak
+[2015.10.24-17.36.05:259][  0]LogMemory: Process Virtual Memory: 57.29 MB used, 57.29 MB peak
+[2015.10.24-17.36.05:259][  0]LogMemory: Physical Memory: 4808.01 MB used, 16253.98 MB total
+[2015.10.24-17.36.05:259][  0]LogMemory: Virtual Memory: 337.52 MB used, 8388608.00 MB total
+[2015.10.24-17.36.05:291][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.24-17.36.06:028][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.10.24-17.36.06:028][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 7870MB of shared system memory, 2 output[s]
+[2015.10.24-17.36.06:031][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.10.24-17.36.06:031][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.10.24-17.36.06:031][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.24-17.36.06:037][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.24-17.36.06:037][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.24-17.36.06:045][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.24-17.36.06:061][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/deweym/Desktop/Git/Time_Travel/Intermediate/Shaders/WorkingDirectory/6888/).
+[2015.10.24-17.36.06:061][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Intermediate/Shaders/tmp/6D609F9C4D830C9A28E26BB1A46E955F/'.
+[2015.10.24-17.36.06:061][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.24-17.36.07:168][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.24-17.36.07:173][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.24-17.36.07:178][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.24-17.36.07:182][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.24-17.36.07:186][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.24-17.36.07:189][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.24-17.36.07:192][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.24-17.36.07:195][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.24-17.36.07:198][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.24-17.36.07:201][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.24-17.36.07:204][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.24-17.36.07:207][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.24-17.36.07:207][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.24-17.36.07:223][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.24-17.36.07:225][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.24-17.36.07:228][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.24-17.36.07:231][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.24-17.36.07:231][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.24-17.36.07:303][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/deweym/Desktop/Git/Time_Travel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.24-17.36.07:339][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.24-17.36.07:488][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.24-17.36.07:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/deweym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.24-17.36.07:663][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-17.36.07:664][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.24-17.36.07:686][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.24-17.36.07:686][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.24-17.36.08:007][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.24-17.36.08:650][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.24-17.36.08:748][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.10.24-17.36.08:928][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.36.08:934][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.36.08:942][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.36.08:951][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.36.09:087][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:152][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.24-17.36.09:152][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.24-17.36.09:207][  0]LogEngine: Initializing Engine...
+[2015.10.24-17.36.09:208][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.24-17.36.09:209][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.24-17.36.09:340][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-17.36.09:346][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-17.36.09:371][  0]LogInit: FAudioDevice initialized.
+[2015.10.24-17.36.09:392][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/deweym/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-17.36.09:396][  0]LogInit: Texture streaming: Enabled
+[2015.10.24-17.36.09:403][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.24-17.36.09:403][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-17.36.09:403][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcea5a2141a743656a50c19051b49d28|296cc090900445e985a190bb6d60081a|fb55ffd5-246e-4541-9d06-aaf685c0fe31
+[2015.10.24-17.36.09:403][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.24-17.36.09:418][  0]LogInit: Transaction tracking system initialized
+[2015.10.24-17.36.09:444][  0]BlueprintLog: New page: Editor Load
+[2015.10.24-17.36.09:525][  0]LocalizationService: Info Localization service is disabled
+[2015.10.24-17.36.09:606][  0]LogConsoleResponse:Display: 
+[2015.10.24-17.36.09:727][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.24-17.36.09:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/' took 0.01s
+[2015.10.24-17.36.09:780][  0]SourceControl: Info Source control is disabled
+[2015.10.24-17.36.09:780][  0]Cmd: MAP LOAD FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-17.36.09:781][  0]LightingResults: New page: Lighting Build
+[2015.10.24-17.36.09:784][  0]MapCheck: New page: Map Check
+[2015.10.24-17.36.09:784][  0]LightingResults: New page: Lighting Build
+[2015.10.24-17.36.09:794][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000220C0400
+[2015.10.24-17.36.09:797][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:799][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:801][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:803][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:804][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:805][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:805][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:806][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.09:807][  0]LogLinker:Warning: Asset '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.36.10:548][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.24-17.36.10:555][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-17.36.10:555][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-17.36.10:603][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.62ms to complete.
+[2015.10.24-17.36.10:603][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.823
+[2015.10.24-17.36.10:718][  0]LogCollectionManager: Loaded 0 collections in 0.002757 seconds
+[2015.10.24-17.36.10:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Saved/Collections/' took 0.01s
+[2015.10.24-17.36.10:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/Developers/deweym/Collections/' took 0.01s
+[2015.10.24-17.36.10:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/deweym/Desktop/Git/Time_Travel/Content/Collections/' took 0.01s
+[2015.10.24-17.36.10:759][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1867 classes and 333 folders.
+[2015.10.24-17.36.10:768][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.24-17.36.10:774][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.24-17.36.10:822][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.24-17.36.10:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.24-17.36.10:848][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.24-17.36.10:852][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.24-17.36.10:872][  0]LogLoad: Full Startup: 6.16 seconds (BP compile: 0.15 seconds)
+[2015.10.24-17.36.11:270][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.24-17.36.11:405][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2015.10.24-17.36.12:219][  3]LogAssetRegistry: Asset discovery search completed in 3.4813 seconds
+[2015.10.24-17.36.12:219][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.24-17.36.12:219][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2015.10.24-17.51.02:921][480]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-17.51.03:419][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.10.24-17.51.38:167][909]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-17.52.34:858][734]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.24-17.53.02:040][741]LogRenderer: Reallocating scene render targets to support 1208x1060 (Frame:7459).
+[2015.10.24-17.53.43:095][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.24-17.54.59:216][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.24-17.54.59:216][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.10.24-17.54.59:243][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025472660
+[2015.10.24-17.54.59:491][660]LogSavePackage: Save=225.172073ms
+[2015.10.24-17.54.59:491][660]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonExampleMap_Auto1752672A9430148236B2DD088D6DAF780.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.10.24-17.54.59:491][660]LogSavePackage: Total save time: 235.860255ms
+[2015.10.24-17.54.59:491][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.10.24-17.54.59:494][660]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.278
+[2015.10.24-17.54.59:494][660]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2015.10.24-17.54.59:502][660]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2015.10.24-17.54.59:502][660]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2015.10.24-17.54.59:514][660]LogSavePackage: Save=8.053476ms
+[2015.10.24-17.54.59:514][660]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonGameMode_Auto108BCF11E446485B9AA03679143CDCEFA.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2015.10.24-17.54.59:515][660]LogSavePackage: Total save time: 11.655197ms
+[2015.10.24-17.54.59:515][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2015.10.24-17.54.59:519][660]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeTravelTech] ([1] browsable assets)...
+[2015.10.24-17.54.59:519][660]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeTravelTech]
+[2015.10.24-17.54.59:524][660]LogSavePackage: Save=3.570798ms
+[2015.10.24-17.54.59:524][660]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/TimeTravelTech_Auto1D0E48B79468AFA81ED185EA2646581B8.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/Blueprints/TimeTravelTech_Auto1.uasset'
+[2015.10.24-17.54.59:524][660]LogSavePackage: Total save time: 4.391082ms
+[2015.10.24-17.54.59:524][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/Blueprints/TimeTravelTech_Auto1.uasset
+[2015.10.24-17.54.59:528][660]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-17.54.59:528][660]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-17.54.59:528][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-17.54.59:540][660]LogSavePackage: Save=10.818285ms
+[2015.10.24-17.54.59:540][660]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto1EF63BDCC4BF292A465C997AB7EC8B70E.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto1.uasset'
+[2015.10.24-17.54.59:541][660]LogSavePackage: Total save time: 11.658695ms
+[2015.10.24-17.54.59:541][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto1.uasset
+[2015.10.24-17.54.59:541][660]LogFileHelpers: Auto-saving content packages took 0.042
+[2015.10.24-17.55.21:465][965]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.10.24-17.55.21:521][965]BlueprintEditorCompileResults: Info [1156.86] Compile of ThirdPersonExampleMap successful! [in 55 ms]
+[2015.10.24-17.57.49:802][ 28]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/4.9/Engine/Source/Runtime/Engine/Classes/GameFramework/GameState.h 
+[2015.10.24-17.57.50:071][ 28]LogWindows: Launch application code for C:/Program Files/Epic Games/4.9/Engine/Source/Runtime/Engine/Classes/GameFramework/GameState.h : 42
+[2015.10.24-17.57.50:071][ 28]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/4.9/Engine/Source/Runtime/Engine/Private/GameState.cpp 
+[2015.10.24-17.57.50:305][ 28]LogWindows: Launch application code for C:/Program Files/Epic Games/4.9/Engine/Source/Runtime/Engine/Private/GameState.cpp : 42
+[2015.10.24-17.57.50:305][ 28]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:306][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:307][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:308][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:308][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:309][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:309][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:378][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.57.50:378][ 28]LogVSAccessor:Warning: Couldn't access module table
+[2015.10.24-17.58.51:370][405]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.24-18.03.26:602][919]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.03.34:370][471]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.05.44:080][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.24-18.05.44:107][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026AC49A0
+[2015.10.24-18.05.44:107][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006A713F60
+[2015.10.24-18.05.44:351][850]LogSavePackage: Save=225.372177ms
+[2015.10.24-18.05.44:351][850]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonExampleMap_Auto2899CF09D4DAFE8B87A8FE7A87AFE59B5.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.10.24-18.05.44:352][850]LogSavePackage: Total save time: 236.299276ms
+[2015.10.24-18.05.44:352][850]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2015.10.24-18.05.44:354][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.275
+[2015.10.24-18.05.44:355][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.275
+[2015.10.24-18.05.44:359][850]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-18.05.44:359][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-18.05.44:359][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-18.05.44:373][850]LogSavePackage: Save=12.484521ms
+[2015.10.24-18.05.44:373][850]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto2D0B8992D4A91738AC40EA3911DF702B5.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto2.uasset'
+[2015.10.24-18.05.44:374][850]LogSavePackage: Total save time: 14.082495ms
+[2015.10.24-18.05.44:374][850]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto2.uasset
+[2015.10.24-18.05.44:374][850]LogFileHelpers: Auto-saving content packages took 0.019
+[2015.10.24-18.05.50:402][869]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.05.50:411][869]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.05.50:416][869]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.05.50:437][869]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.06.07:348][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2015.10.24-18.06.22:235][ 53]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall6)
+[2015.10.24-18.06.23:361][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.24-18.06.47:432][786]LogActorFactory: Actor Factory created Sphere
+[2015.10.24-18.06.50:173][ 44]LogActorFactory: Actor Factory created Sphere
+[2015.10.24-18.07.03:614][350]Cmd: DELETE
+[2015.10.24-18.07.03:614][350]Cmd: ACTOR DELETE
+[2015.10.24-18.07.03:615][350]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.24-18.07.03:636][350]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.10.24-18.07.05:404][496]LogActorFactory: Actor Factory created Cube
+[2015.10.24-18.07.05:897][551]LogActorFactory: Actor Factory created Cube
+[2015.10.24-18.07.20:907][804]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.20:926][804]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.26:709][348]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.35:958][116]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.35:962][116]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.35:966][116]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.07.35:985][116]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.08.39:801][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.39:801][ 81]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.24-18.08.39:804][ 81]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.08.39:804][ 81]LogPlayLevel: [PlayLevel] Compiling MyGameState before play...
+[2015.10.24-18.08.39:845][ 81]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.08.39:845][ 81]LogPlayLevel: PlayLevel: Blueprint regeneration took 44 ms (1 blueprints)
+[2015.10.24-18.08.39:867][ 81]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 24, 2015, 10:08:39 AM)
+[2015.10.24-18.08.39:867][ 81]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.24-18.08.39:884][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016854s)
+[2015.10.24-18.08.39:884][ 81]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.24-18.08.39:884][ 81]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2015.10.24-18.08.39:884][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017842s)
+[2015.10.24-18.08.39:910][ 81]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-18.08.39:918][ 81]LogInit: FAudioDevice initialized.
+[2015.10.24-18.08.39:961][ 81]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.24-18.08.39:965][ 81]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.10.24-14.08.39
+[2015.10.24-18.08.39:965][ 81]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-18.08.39:966][ 81]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-18.08.39:966][ 81]LogWorld: Bringing up level for play took: 0.003821
+[2015.10.24-18.08.39:967][ 81]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.15
+[2015.10.24-18.08.39:967][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.40:020][ 81]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.08.45:570][707]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.45:625][707]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.45:680][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000338F8CC0
+[2015.10.24-18.08.46:839][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.46:839][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.24-18.08.46:839][787]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 24, 2015, 10:08:46 AM)
+[2015.10.24-18.08.46:839][787]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.10.24-18.08.46:854][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015142s)
+[2015.10.24-18.08.46:855][787]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.24-18.08.46:855][787]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2015.10.24-18.08.46:855][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016028s)
+[2015.10.24-18.08.46:881][787]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.24-18.08.46:888][787]LogInit: FAudioDevice initialized.
+[2015.10.24-18.08.46:917][787]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.24-18.08.46:921][787]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.10.24-14.08.46
+[2015.10.24-18.08.46:921][787]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-18.08.46:922][787]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-18.08.46:922][787]LogWorld: Bringing up level for play took: 0.004280
+[2015.10.24-18.08.46:924][787]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.808
+[2015.10.24-18.08.46:924][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.48:906][ 18]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.48:962][ 18]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.10.24-18.08.49:012][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B7ADF80
+[2015.10.24-18.09.09:925][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2015.10.24-18.09.12:020][ 30]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.10.24-18.09.12:729][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.24-18.09.32:279][451]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.09.33:412][525]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.09.33:440][525]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.10.18:670][286]Cmd: TRANSACTION UNDO
+[2015.10.24-18.10.18:670][286]LogEditorTransaction: Undo Move Actors
+[2015.10.24-18.10.34:968][507]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.11.07:148][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.10.24-18.11.10:137][741]Cmd: EDIT COPY
+[2015.10.24-18.11.10:712][799]Cmd: EDIT PASTE
+[2015.10.24-18.11.14:072][137]Cmd: EDIT PASTE
+[2015.10.24-18.11.15:913][321]Cmd: EDIT PASTE
+[2015.10.24-18.11.19:004][630]Cmd: EDIT PASTE
+[2015.10.24-18.11.23:054][ 37]Cmd: EDIT PASTE
+[2015.10.24-18.11.27:706][504]Cmd: EDIT PASTE
+[2015.10.24-18.11.40:231][300]Cmd: EDIT PASTE
+[2015.10.24-18.11.43:750][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2015.10.24-18.13.42:312][332]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.43:342][968]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.47:747][269]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.53:471][717]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.55:336][828]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.56:052][877]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.57:750][979]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.14.59:417][ 85]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.15.02:510][307]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.15.53:138][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.24-18.15.53:409][185]LogSavePackage: Save=229.934784ms
+[2015.10.24-18.15.53:409][185]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonExampleMap_Auto37FF219194B5CC38B8F3E0E92B0B9FF77.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2015.10.24-18.15.53:410][185]LogSavePackage: Total save time: 241.229724ms
+[2015.10.24-18.15.53:410][185]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2015.10.24-18.15.53:413][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.275
+[2015.10.24-18.15.53:413][185]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.275
+[2015.10.24-18.15.53:418][185]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-18.15.53:418][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-18.15.53:418][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-18.15.53:436][185]LogSavePackage: Save=17.439182ms
+[2015.10.24-18.15.53:436][185]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto3375ACCE5456274DB08AA4B8BDC37676F.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto3.uasset'
+[2015.10.24-18.15.53:437][185]LogSavePackage: Total save time: 18.399484ms
+[2015.10.24-18.15.53:437][185]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto3.uasset
+[2015.10.24-18.15.53:437][185]LogFileHelpers: Auto-saving content packages took 0.023
+[2015.10.24-18.28.22:215][413]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
+[2015.10.24-18.28.22:220][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-18.28.22:220][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-18.28.22:220][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-18.28.22:242][413]LogSavePackage: Save=20.197866ms
+[2015.10.24-18.28.22:242][413]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto4458BC36C4336910E35EE0CBD71136CE3.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto4.uasset'
+[2015.10.24-18.28.22:243][413]LogSavePackage: Total save time: 21.326777ms
+[2015.10.24-18.28.22:243][413]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto4.uasset
+[2015.10.24-18.28.22:243][413]LogFileHelpers: Auto-saving content packages took 0.027
+[2015.10.24-18.28.58:442][792]MapCheck: New page: Map Check
+[2015.10.24-18.28.58:462][792]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.24-18.28.58:462][792]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.24-18.28.58:493][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F8E1760
+[2015.10.24-18.28.58:496][792]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.10.24-18.28.58:496][792]LogStats:          STAT_HLOD_BuildClusters - 22.317 ms
+[2015.10.24-18.28.58:496][792]LightingResults: New page: Lighting Build - Oct 24, 2015, 10:28:58 AM
+[2015.10.24-18.29.02:763][792]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.24-18.29.02:763][792]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.24-18.29.02:763][792]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.24-18.29.02:763][792]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.24-18.29.02:763][792]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.24-18.29.02:935][792]LogEditorBuildUtils: Build time 0:00:04
+[2015.10.24-18.29.07:332][977]Job is a success!
+[2015.10.24-18.29.07:672][978]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.10.24-18.29.07:795][978]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.10.24-18.29.07:799][978]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.24-18.29.07:799][978]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.10.24-18.29.07:802][978]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.24-18.29.07:818][978]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.24-18.29.07:852][978]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.24-18.29.07:873][978]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.24-18.29.07:889][978]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.24-18.29.07:934][978]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.24-18.29.07:955][978]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.24-18.29.07:974][978]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.24-18.29.08:007][978]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.24-18.29.08:030][978]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.24-18.29.08:098][978]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.24-18.29.08:252][978]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.24-18.29.08:312][978]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.10.24-18.29.08:387][978]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.24-18.29.08:723][978]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.10.24-18.29.08:843][978]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.10.24-18.29.08:886][978]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.10.24-18.29.08:915][978]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.10.24-18.29.08:944][978]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.10.24-18.29.08:948][978]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.10.24-18.29.08:970][978]Lightmass on SA2502-PC03: 5.56 sec total, 112 ms importing, 0 ms setup, 370 ms photons, 5.06 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 35.2 sec total, 10.7 sec processing.
+[2015.10.24-18.29.09:002][978]LogStaticLightingSystem: Illumination: 10.4 sec (1.49 sec encoding lightmaps)
+[2015.10.24-18.29.09:002][978]LogStaticLightingSystem: Lightmap texture memory:  3.7 MB (3.7 MB streaming, 0.0 MB non-streaming), 12 textures
+[2015.10.24-18.29.09:002][978]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (1.8 MB streaming, 0.0 MB non-streaming), 6 textures
+[2015.10.24-18.29.09:779][979]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.24-18.29.09:779][979]MapCheck: New page: ThirdPersonExampleMap - Oct 24, 2015, 10:29:09 AM
+[2015.10.24-18.29.09:864][979]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.674ms to complete.
+[2015.10.24-18.29.14:869][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.24-18.29.44:929][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.24-18.33.48:240][772]BlueprintLog: New page: Compile MyGameState
+[2015.10.24-18.33.48:308][772]BlueprintEditorCompileResults: Info [3463.69] Compile of MyGameState successful! [in 68 ms]
+[2015.10.24-18.33.55:406][271]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.34.05:250][970]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.35.15:456][305]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.24-18.36.21:164][276]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.36.24:271][525]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Game/MyGameState.SKEL_MyGameState_C'
+[2015.10.24-18.39.04:211][484]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.StaticMesh'
+[2015.10.24-18.39.30:684][323]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.40.01:291][261]LogSavePackage: Save=132.304474ms
+[2015.10.24-18.40.01:291][261]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonExampleMap_Auto5A6EF014A4D68C9D38ABEC18D49F4E68F.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2015.10.24-18.40.01:292][261]LogSavePackage: Total save time: 143.543407ms
+[2015.10.24-18.40.01:292][261]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2015.10.24-18.40.01:294][261]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.174
+[2015.10.24-18.40.01:294][261]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2015.10.24-18.40.01:298][261]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-18.40.01:298][261]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-18.40.01:298][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-18.40.01:324][261]LogSavePackage: Save=23.918018ms
+[2015.10.24-18.40.01:324][261]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto50A2431504CFA3A372A23BC9136BD6DA7.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto5.uasset'
+[2015.10.24-18.40.01:325][261]LogSavePackage: Total save time: 25.092144ms
+[2015.10.24-18.40.01:325][261]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto5.uasset
+[2015.10.24-18.40.01:325][261]LogFileHelpers: Auto-saving content packages took 0.031
+[2015.10.24-18.41.01:066][441]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.24-18.41.13:528][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2015.10.24-18.42.07:415][344]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.42.15:166][863]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.42.29:772][648]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.43.24:508][530]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.43.52:996][513]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.43.56:223][717]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.44.09:836][648]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.44.20:206][393]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.45.13:703][983]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyGameState', cached variable property's owner is '/Script/Engine.Actor'
+[2015.10.24-18.50.01:723][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2015.10.24-18.50.01:727][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameState] ([1] browsable assets)...
+[2015.10.24-18.50.01:727][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameState]
+[2015.10.24-18.50.01:727][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-18.50.01:759][193]LogSavePackage: Save=30.372351ms
+[2015.10.24-18.50.01:759][193]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState_Auto6B370D0314CA5ABEA02DF56BE59E79A30.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto6.uasset'
+[2015.10.24-18.50.01:760][193]LogSavePackage: Total save time: 31.517595ms
+[2015.10.24-18.50.01:760][193]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/Autosaves/Game/MyGameState_Auto6.uasset
+[2015.10.24-18.50.01:760][193]LogFileHelpers: Auto-saving content packages took 0.037
+[2015.10.24-18.50.15:445][347]LogSavePackage: Save=278.789764ms
+[2015.10.24-18.50.15:445][347]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonExampleMap1C01CE014302A1C150AAAABC14596A3A.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.10.24-18.50.15:450][347]LogSavePackage: Total save time: 294.059221ms
+[2015.10.24-18.50.15:450][347]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.10.24-18.50.15:476][347]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.391
+[2015.10.24-18.50.15:494][347]LogSavePackage: Save=8.804625ms
+[2015.10.24-18.50.15:494][347]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/ThirdPersonGameMode3A42401448AE47C8385B05AECDD74D51.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2015.10.24-18.50.15:498][347]LogSavePackage: Total save time: 15.570499ms
+[2015.10.24-18.50.15:498][347]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2015.10.24-18.50.15:504][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TimeTravelTech" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Blueprints/TimeTravelTech.uasset" SILENT=true
+[2015.10.24-18.50.15:509][347]LogSavePackage: Save=3.617763ms
+[2015.10.24-18.50.15:509][347]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/TimeTravelTech6B9AB3D849EC74D17EA2BDAB61114EB9.tmp' to '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Blueprints/TimeTravelTech.uasset'
+[2015.10.24-18.50.15:511][347]LogSavePackage: Total save time: 6.304979ms
+[2015.10.24-18.50.15:511][347]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/Blueprints/TimeTravelTech.uasset
+[2015.10.24-18.50.15:517][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameState" FILE="../../../../../../Users/deweym/Desktop/Git/Time_Travel/Content/MyGameState.uasset" SILENT=true
+[2015.10.24-18.50.15:547][347]LogSavePackage: Save=28.457287ms
+[2015.10.24-18.50.15:547][347]LogSavePackage: Moving '../../../../../../Users/deweym/Desktop/Git/Time_Travel/Saved/MyGameState0FD18
