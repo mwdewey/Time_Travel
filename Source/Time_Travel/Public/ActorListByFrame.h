@@ -17,6 +17,12 @@ struct FActorListRow
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="2D Array")
     TArray<FTransform> Transforms;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "2D Array")
+	TArray<FVector> LinearVelocity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "2D Array")
+	TArray<FVector> AngularVelocity;
     
     FActorListRow() {
         
